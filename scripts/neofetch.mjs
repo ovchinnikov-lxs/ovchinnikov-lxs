@@ -51,7 +51,7 @@ const lines = [
   ['Role', 'Frontend Engineer · architecture & performance'],
   ['Uptime', `${years}+ years (since ${CAREER_START})`],
   ['Stack', 'Vue/Nuxt · Angular · React/Next · TypeScript'],
-  ['Impact', '3× faster delivery · 2.5× faster pages · 10-min releases'],
+  ['Impact', '2.5× faster pages · 3× faster rendering · 10-min releases'],
   ['Languages', d.languages.map(([n, p]) => `${n} ${p}%`).join(' · ')],
   ['Activity', `${d.contributions} contributions in the last year`],
   ['Latest', d.latest ? `${d.latest.name} · ${date(d.latest.pushedAt)}` : '—'],
