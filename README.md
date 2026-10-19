@@ -1,5 +1,5 @@
 <a href="https://ovchinnikov-lxs.github.io">
-  <img src="assets/neofetch.svg" alt="Aleksandr Ovchinnikov — Frontend Engineer at BrainRocket. Vue/Nuxt, Angular, React/Next, TypeScript. Lisbon, Portugal. Open to new opportunities." width="100%" />
+  <img src="assets/neofetch.svg" alt="Aleksandr Ovchinnikov — Frontend Engineer. Vue/Nuxt, Angular, React/Next, TypeScript. Lisbon, Portugal. Open to new opportunities." width="100%" />
 </a>
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 ### ✦ Now
 
-Frontend Engineer at **[BrainRocket](https://www.brainrocket.com/)** — building pixel-perfect, animation-heavy Angular interfaces and an AI-assisted workflow around **Claude Code** that makes feature delivery up to **3× faster**. Before that: Deputy Head of Frontend at **Wintech** (Nuxt 3 platform, multi-brand CI/CD) and **IdaLite** (website builder with 500+ blocks).
+Building pixel-perfect, animation-heavy interfaces and AI-assisted workflows around **Claude Code** that make feature delivery up to **3× faster**. Before that: Deputy Head of Frontend on a Nuxt 3 multi-brand platform (single build for all brands, releases in 10 minutes) and a website builder with 500+ customizable blocks.
 
 Currently expanding into React & Next.js — my [portfolio](https://ovchinnikov-lxs.github.io) is one of those projects: scratch the plain page to reveal the design.
 
