@@ -11,17 +11,11 @@
   <a href="https://leetcode.com/ovchinnikov-lxs/"><img src="assets/icons/leetcode.svg" width="44" alt="LeetCode" /></a>
 </p>
 
-### ✦ Now
+### ✦ About
 
-Frontend architecture and performance first, pixel-perfect UI on top:
+Frontend Engineer with 6+ years of experience building production web applications with Vue/Nuxt, Angular, and TypeScript. Strong background in frontend architecture, performance optimization, CI/CD, and scalable multi-brand systems. I use AI-assisted workflows as a force multiplier, not a replacement for engineering judgement.
 
-- **Multi-brand platforms** on shared layers — one codebase, many branded sites.
-- **2.5× faster pages** with hybrid rendering and SWR caching.
-- **Releases in 10 minutes instead of hours** — one build for all brands, each brand's config applied at runtime.
-- **Up to 3× faster rendering** after refactoring a shared UI system.
-- **AI-assisted workflows** around Claude Code — feature delivery up to 3× faster.
-
-Currently expanding into React & Next.js — my [portfolio](https://ovchinnikov-lxs.github.io) is one of those projects: scratch the plain page to reveal the design.
+Currently expanding my stack with React and Next.js through hands-on projects — my [portfolio](https://ovchinnikov-lxs.github.io) is one of them.
 
 ### ✦ Stack
 
