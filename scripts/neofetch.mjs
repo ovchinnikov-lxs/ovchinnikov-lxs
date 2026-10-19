@@ -48,7 +48,7 @@ const date = (iso) => new Date(iso).toLocaleDateString('en-GB', { day: 'numeric'
 const d = await load();
 const years = new Date().getUTCFullYear() - CAREER_START;
 const lines = [
-  ['Role', 'Frontend Engineer · product & multi-brand web apps'],
+  ['Role', 'Frontend Engineer · architecture & performance'],
   ['Uptime', `${years}+ years (since ${CAREER_START})`],
   ['Stack', 'Vue/Nuxt · Angular · React/Next · TypeScript'],
   ['Impact', '3× faster delivery · 2.5× faster pages · 10-min releases'],
