@@ -13,7 +13,7 @@
 
 ### ✦ Now
 
-Frontend architecture and performance first: scalable multi-brand platforms on shared layers, hybrid rendering with SWR caching (**2.5× faster** pages), one-build CI/CD with **10-minute** releases, a shared UI system with up to **3× faster** rendering — and pixel-perfect, animation-rich UI on top. I also build AI-assisted workflows around **Claude Code** that make feature delivery up to **3× faster**.
+Frontend architecture and performance first: scalable multi-brand platforms on shared layers, hybrid rendering with SWR caching (**2.5× faster** pages), a single build for all brands with per-brand config at runtime — releases went from hours to **10 minutes**, a shared UI system with up to **3× faster** rendering — and pixel-perfect, animation-rich UI on top. I also build AI-assisted workflows around **Claude Code** that make feature delivery up to **3× faster**.
 
 Currently expanding into React & Next.js — my [portfolio](https://ovchinnikov-lxs.github.io) is one of those projects: scratch the plain page to reveal the design.
 
