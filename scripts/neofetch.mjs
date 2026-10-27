@@ -5,13 +5,14 @@ import { readFileSync, writeFileSync } from 'node:fs';
 
 const USER = 'ovchinnikov-lxs';
 const CAREER_START = 2020;
+const CAREER_START_MONTH = 8; // September, zero-based
 const mock = process.argv.includes('--mock');
 
 const query = `query($login: String!) {
   user(login: $login) {
     contributionsCollection { contributionCalendar { totalContributions } }
-    repositories(first: 100, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC, orderBy: { field: PUSHED_AT, direction: DESC }) {
-      nodes { name pushedAt languages(first: 10, orderBy: { field: SIZE, direction: DESC }) { edges { size node { name } } } }
+    repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: { field: PUSHED_AT, direction: DESC }) {
+      nodes { name pushedAt isPrivate languages(first: 10, orderBy: { field: SIZE, direction: DESC }) { edges { size node { name } } } }
     }
   }
 }`;
@@ -39,23 +40,24 @@ async function load() {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 4)
     .map(([name, size]) => [name, Math.round((size / total) * 100)]);
-  return { contributions: data.user.contributionsCollection.contributionCalendar.totalContributions, languages, latest: repos[0] };
+  return { contributions: data.user.contributionsCollection.contributionCalendar.totalContributions, languages, latest: repos.find((r) => !r.isPrivate) };
 }
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const date = (iso) => new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
 
 const d = await load();
-const years = new Date().getUTCFullYear() - CAREER_START;
+const now = new Date();
+const years = now.getUTCFullYear() - CAREER_START - (now.getUTCMonth() < CAREER_START_MONTH ? 1 : 0);
 const lines = [
-  ['Role', 'Frontend Engineer · architecture & performance'],
+  ['Role', 'Frontend Engineer'],
   ['Uptime', `${years}+ years (since ${CAREER_START})`],
   ['Stack', 'Vue/Nuxt · Angular · React/Next · TypeScript'],
-  ['Impact', '2.5× faster pages · 3× faster rendering · 10-min releases'],
+  ['Focus', 'Multi-brand architecture · performance · developer experience'],
   ['Languages', d.languages.map(([n, p]) => `${n} ${p}%`).join(' · ')],
   ['Activity', `${d.contributions} contributions in the last year`],
-  ['Latest', d.latest ? `${d.latest.name} · ${date(d.latest.pushedAt)}` : '—'],
-  ['Location', 'Lisbon, PT · no relocation needed'],
+  ['Last push', d.latest ? `${d.latest.name} · ${date(d.latest.pushedAt)}` : '—'],
+  ['Location', 'Lisbon area, Portugal'],
   ['Status', '● open to new opportunities', '#c6f432'],
 ];
 
