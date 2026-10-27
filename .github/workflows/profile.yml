@@ -27,7 +27,7 @@ jobs:
       - name: Render neofetch card
         run: node scripts/neofetch.mjs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Commit if changed
         run: |
