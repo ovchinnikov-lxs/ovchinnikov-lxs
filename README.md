@@ -13,7 +13,7 @@
 
 ### ✦ About
 
-Frontend Engineer with 6+ years of experience building production web applications with Vue/Nuxt, Angular, and TypeScript. Strong background in frontend architecture, performance optimization, CI/CD, and scalable multi-brand systems. I use AI-assisted workflows as a force multiplier, not a replacement for engineering judgement.
+Frontend Engineer with 6+ years of experience building production web applications with Vue/Nuxt, Angular, and TypeScript. Strong background in frontend architecture, performance optimization, CI/CD, and scalable multi-brand systems. I build AI-assisted workflows to improve development speed and consistency.
 
 Currently expanding my stack with React and Next.js through hands-on projects — my [portfolio](https://ovchinnikov-lxs.github.io) is one of them.
 
