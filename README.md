@@ -17,6 +17,14 @@ Frontend Engineer with 6+ years of experience building production web applicatio
 
 Currently expanding my stack with React and Next.js through hands-on projects — my [portfolio](https://ovchinnikov-lxs.github.io) is one of them.
 
+### ✦ Projects
+
+**[PetPoint](https://pet-point.app)** — SaaS CRM for grooming businesses: multi-tenant CRM, salon websites with online booking, Stripe subscriptions, 4 languages. Built in 18 days — ~72k lines of TypeScript, 2,190+ tests, 50 migrations, 156 issues closed — by an AI-native team I direct: role-scoped Claude Code sessions and subagents working under my architecture, rules and test-first Definition of Done.
+<br><sub>Next.js · TypeScript · tRPC · Drizzle · PostgreSQL · Stripe · Playwright</sub>
+
+**[Convert Any](https://convert-any-one.vercel.app)** · [repo](https://github.com/ovchinnikov-lxs/convert-any) — image, video and document converter that runs entirely in the browser: ffmpeg.wasm, libheif and libvips in WebAssembly, multi-threaded, offline PWA. Nothing is uploaded.
+<br><sub>React · TypeScript · Vite · WebAssembly</sub>
+
 ### ✦ Stack
 
 <img src="assets/stack.svg" alt="TypeScript, Vue.js, Nuxt, Angular, React, Next.js, Node.js, NestJS, Tailwind CSS, PostgreSQL, Redis, Vite, Vitest, Claude" width="100%" />
