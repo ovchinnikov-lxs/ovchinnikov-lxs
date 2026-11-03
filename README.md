@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://ovchinnikov-lxs.github.io/?ref=github"><img src="assets/icons/website.svg" width="44" alt="Website" /></a>&nbsp;
-  <a href="https://docs.google.com/document/d/1JC52-Ez0q8nzUQ4QkAfsGF9dB3anpScE/edit?usp=sharing&ouid=102165632730673724786&rtpof=true&sd=true"><img src="assets/icons/cv.svg" width="44" alt="CV" /></a>&nbsp;
+  <a href="https://docs.google.com/document/d/1y_WQloALPbGRRNmOQBKpvIOMgBNzrhYv5JKtXe2Zlno/edit?usp=sharing"><img src="assets/icons/cv.svg" width="44" alt="CV" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/ovchinnikov-lxs"><img src="assets/icons/linkedin.svg" width="44" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:ovchinnikov.lxs@gmail.com"><img src="assets/icons/email.svg" width="44" alt="Email" /></a>&nbsp;
   <a href="https://t.me/ovchinnikov_lxs"><img src="assets/icons/telegram.svg" width="44" alt="Telegram" /></a>&nbsp;
